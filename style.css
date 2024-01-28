@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+}
+
+#container .row {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    flex: 1 0 0;
+}
+
+#container .square {
+    display: flex;
+    flex: 1 0 0;
+}
